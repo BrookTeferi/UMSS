@@ -1,35 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\source\\repos\\ErpSolution\\UMSS\\UMSS.csproj": {}
+    "C:\\Users\\Brook\\Source\\Repos\\User-Managment-System-\\UMSS\\UMSS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\source\\repos\\ErpSolution\\UMSS\\UMSS.csproj": {
+    "C:\\Users\\Brook\\Source\\Repos\\User-Managment-System-\\UMSS\\UMSS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\ErpSolution\\UMSS\\UMSS.csproj",
+        "projectUniqueName": "C:\\Users\\Brook\\Source\\Repos\\User-Managment-System-\\UMSS\\UMSS.csproj",
         "projectName": "UMSS",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\ErpSolution\\UMSS\\UMSS.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\ErpSolution\\UMSS\\obj\\",
+        "projectPath": "C:\\Users\\Brook\\Source\\Repos\\User-Managment-System-\\UMSS\\UMSS.csproj",
+        "packagesPath": "C:\\Users\\Brook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brook\\Source\\Repos\\User-Managment-System-\\UMSS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Brook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -81,7 +84,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -93,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

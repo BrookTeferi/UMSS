@@ -8,5 +8,6 @@ namespace UMSS.Enums
     public enum Roles
     {
      Basic,
+     Admin
     }
 }

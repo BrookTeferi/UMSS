@@ -45,6 +45,15 @@ namespace UMSS.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("Role");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "7ddad8a6-b19e-4f4b-bbba-705dbf4763fb",
+                            ConcurrencyStamp = "a2116178-2ad1-4be6-8613-8da98e927a31",
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
